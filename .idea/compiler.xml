@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="easytravelpresentation" />
+        <module name="easytravelservice" />
+        <module name="easytravelmodel" />
+        <module name="easytravel-service" />
+        <module name="easytravel-persistence" />
+        <module name="easytravel-presentation" />
+        <module name="easytravel-model" />
+        <module name="easytravelpersistence" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EasyTravel" target="1.8" />
+      <module name="easytravel-model" target="1.8" />
+      <module name="easytravel-persistence" target="1.8" />
+      <module name="easytravel-presentation" target="1.8" />
+      <module name="easytravel-service" target="1.8" />
+      <module name="easytravelmodel" target="1.8" />
+      <module name="easytravelpersistence" target="1.8" />
+      <module name="easytravelpresentation" target="1.8" />
+      <module name="easytravelservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
