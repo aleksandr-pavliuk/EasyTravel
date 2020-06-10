@@ -13,7 +13,11 @@ public abstract class AppException extends RuntimeException {
         super(message, cause);
     }
 
-    public AppException(String message) {
-        super(message);
-    }
+	public AppException(String message) {
+		super(message);
+	}
+
+	public AppException(Throwable throwable) {
+		super(throwable);
+	}
 }
